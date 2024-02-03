@@ -1,0 +1,21 @@
+{
+  "name": "ytqt",
+  "version": "0.1.0",
+  "description": "Experimental piercer stronghold. No tests.",
+  "main": "index.js",
+  "bin": {
+    "ytqt": "./index.js"
+  },
+  "scripts": {
+    "postinstall": "echo 'Customize this postinstall string in package.json'",
+    "dev": "node ./index.js"
+  },
+  "keywords": [
+    "cute",
+    "development",
+    "deployment",
+    "utility"
+  ],
+  "author": "",
+  "license": "CC-BY-4.0"
+}
