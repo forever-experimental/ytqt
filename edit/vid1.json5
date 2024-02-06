@@ -17,7 +17,7 @@
   // Define the video clips
   clips: [
     {
-	  duration: 159,
+	  duration: 161,
       layers: [
         {
           type: 'image', // Layer type

@@ -21,8 +21,6 @@
   "dependencies": {
     "bing-image-search-api-scraper": "^1.0.0",
     "cute-openai": "^0.1.0",
-    "puppeteer": "^21.11.0",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "playwright": "^1.41.2"
   }
 }
