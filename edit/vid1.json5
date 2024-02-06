@@ -1,0 +1,34 @@
+{
+  // Define the output video specifications
+  outPath: './Panpsychism.mov', // Output file name
+  width: 1280, // Video width
+  height: 720, // Video height
+  fps: 6, // Frames per second
+
+  // Specify the audio file
+  audioFilePath: './outro.wav', // Path to your TTS speech audio file
+
+  // Set default settings for transitions and layers
+  defaults: {
+    transition: { name: 'random', duration: 0.5 }, // Default transition between clips
+    layer: { fontPath: './path_to_your_font.ttf' }, // Default font for text layers
+  },
+
+  // Define the video clips
+  clips: [
+    {
+	  duration: 159,
+      layers: [
+        {
+          type: 'image', // Layer type
+          path: './cc.jpg', // Path to your image file
+        }
+      ],
+    }
+  ],
+
+  // Configuration for the audio
+  keepSourceAudio: true, // Keep the original audio from the video clips
+  clipsAudioVolume: 1, // Volume of the audio from the video clips
+  outputVolume: 1, // Adjust the output volume if necessary
+}

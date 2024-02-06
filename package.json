@@ -1,24 +1,28 @@
 {
   "name": "ytqt",
   "version": "0.1.0",
-  "description": "Experimental piercer stronghold. No tests.",
-  "main": "index.js",
+  "description": "qt yt automation",
+  "main": "src/index.js",
   "bin": {
-    "ytqt": "./index.js"
+    "ytqt": "./src/cli.js"
   },
   "scripts": {
     "postinstall": "echo 'Customize this postinstall string in package.json'",
-    "dev": "node ./index.js"
+    "dev": "node ./src/index.js"
   },
   "keywords": [
     "cute",
     "development",
-    "deployment",
+    "automation",
     "utility"
   ],
   "author": "",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "puppeteer": "^21.11.0"
+    "bing-image-search-api-scraper": "^1.0.0",
+    "cute-openai": "^0.1.0",
+    "puppeteer": "^21.11.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
