@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "qt yt automation",
   "main": "src/index.js",
+  "type": "module",
   "bin": {
     "ytqt": "./src/cli.js"
   },
@@ -20,7 +21,8 @@
   "license": "CC-BY-4.0",
   "dependencies": {
     "bing-image-search-api-scraper": "^1.0.0",
-    "cute-openai": "^0.1.0",
-    "playwright": "^1.41.2"
+    "puppeteer": "^22.3.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
