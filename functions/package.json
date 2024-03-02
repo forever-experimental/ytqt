@@ -1,0 +1,17 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start:local": "npx @google-cloud/functions-framework --target=functions",
+    "deploy:function": "gcloud functions deploy functions --runtime nodejs20 --trigger-http --allow-unauthenticated --project functions"
+  },
+  "author": "planetrenox",
+  "license": "",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "cute-gcf": "^0.1.3",
+    "cute-con": "^0.1.1"
+  }
+}
